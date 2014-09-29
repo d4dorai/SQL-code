@@ -1,1 +1,3 @@
-SELECT count(docid) FROM frequency WHERE term = "parliament";
+SELECT count(docid) 
+FROM frequency 
+WHERE term = "parliament";
